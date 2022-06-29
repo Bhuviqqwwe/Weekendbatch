@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGFramework">
+
+	<test name="Petstore_Login">
+		<classes>
+			<class name="testNGFramework.AssignmentPetstoreRegister2" /> 
+		</classes>	
+	</test> 
+	<test name="Swaglabs_Login">
+		<classes>
+			<class name="testNGFramework.SwagLabs" /> 
+		</classes>	
+	</test> 
+</suite> <!-- Suite -->

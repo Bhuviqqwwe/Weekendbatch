@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFramework]">
+  <test name="Swaglabs_Login(failed)">
+    <classes>
+      <class name="testNGFramework.SwagLabs">
+        <methods>
+          <include name="b_loginDetails"/>
+        </methods>
+      </class> <!-- testNGFramework.SwagLabs -->
+    </classes>
+  </test> <!-- Swaglabs_Login(failed) -->
+</suite> <!-- Failed suite [testNGFramework] -->
